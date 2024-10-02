@@ -8,8 +8,8 @@ import matplotlib.pyplot as plt
 st.title('Dashboard Penyewaan Sepeda')
 
 # Load kedua dataset
-day_data = pd.read_csv('/workspaces/bike-sharing-dashboard/day.csv')
-hour_data = pd.read_csv('/workspaces/bike-sharing-dashboard/hour.csv')
+day_data = pd.read_csv('day.csv')
+hour_data = pd.read_csv('hour.csv')
 
 # Sidebar untuk memilih dataset
 dataset_choice = st.sidebar.selectbox(
